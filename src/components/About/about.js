@@ -11,7 +11,7 @@ const About = () =>{
     //     return setTimeout(()=>{
     //         setLetterClass('text-animate-hover')
     //     },3000)
-    //   })
+    //   },[])
     return(
         <>
     <div className='container about-page'>
@@ -23,7 +23,7 @@ const About = () =>{
                 idx = {15}
                 />
             </h1>
-            <p>I'm a very established front-end developer looking for a role in
+            <p>I'm a very established front-end developer searching for a role in
                 an established IT company with the opportunity to work with the latest
                 technologies on challenging and diverse projects</p>
 
@@ -31,8 +31,8 @@ const About = () =>{
                 I'm very confident,naturally curious,and perpetually working on
                 improving my chops one design problem at a time
             </p>
-            <p>If i need to define myself in one sentence that would be a people 
-                person,an Extrovert,a content creator, and tech-obsessed!!!</p>
+            <p>If i need to define myself in one sentence that would be that 
+                i'm a people person,an Extrovert,a content creator, and tech-obsessed!!!</p>
         </div>
         <div className='stage-cube-cont'>
             <div className='cubespinner'>

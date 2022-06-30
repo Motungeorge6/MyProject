@@ -2,7 +2,7 @@
 import {Link} from 'react-router-dom'
 import './home.scss'
 import AnimatedLetters from '../AnimatedLetters/animated'
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
 import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 

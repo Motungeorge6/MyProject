@@ -13,14 +13,14 @@ const Sidebar = () =>(
         </Link>
         <nav>
             <NavLink exact = "true" activeclassname = "active" to="/">
-                <FontAwesomeIcon icon={faHome} color ="white"/>                 
+                <FontAwesomeIcon icon={faHome} color ="black"/>                 
             </NavLink>
             <NavLink exact = "true" activeclassname = "active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faUser} color ="white"/>                 
+                <FontAwesomeIcon icon={faUser} color ="black"/>                 
             </NavLink>
             <NavLink exact = "true" activeclassname = "active" className="contact-link" to="/contact"
             >
-                <FontAwesomeIcon icon={faEnvelope} color ="white"/>                 
+                <FontAwesomeIcon icon={faEnvelope} color ="black"/>                 
             </NavLink>
         </nav>
         <ul>

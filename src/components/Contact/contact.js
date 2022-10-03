@@ -1,17 +1,36 @@
-import { useState,useEffect } from 'react'
+import { useState,useEffect, useRef } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/animated'
+import emailjs from '@emailjs/browser'
 
 import './contact.scss'
 
 const Contact = ()=>{
     // const[letterClass,setLetterClass] = useState('text-animate')
+    // const refForm = useRef
 
     // useEffect(()=>{
     //         return setTimeout(()=>{
     //             setLetterClass('text-animate-hover')
     //         },3000)
-    //       })
+    //       },[])
+
+    // const sendEmail =(e) =>{
+    //     e.preventDefault()
+
+    //     emailjs
+    //      .sendForm(
+    //         'gmail',
+    //         'template_a1w3gxp',
+    //         refForm.current,
+    //         'service_ge6psds'
+    //     )
+    //     .then(
+    //         ()=>{
+    //             alert('Message successfully sent!')
+    //         }
+    //     )
+    // }
     return(
  <>
  <div className='container contact-page'>
